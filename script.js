@@ -11,9 +11,9 @@ const themeToggle = document.querySelector("#theme-toggle-btn");
 
 // API key
 const API_KEY = config.API_KEY;
-
 const API_URL = config.API_URL;
 
+                
 let typingInterval, controller;
 const chatHistory = [];
 const userData = {message: "", file: {} };
